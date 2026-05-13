@@ -70,6 +70,10 @@ Las clases `ReservaSala`, `AlquilerEquipo` y `AsesoriaEspecializada` heredan de 
 
 Cada servicio redefine el método `calcular_costo()` según sus características.
 
+## Logs
+El sistema registra errores y eventos mediante archivos de log, permitiendo
+un seguimiento adecuado de fallas sin interrumpir la ejecución del programa. 
+
 ## Encapsulamiento
 
 La información y comportamiento de cada entidad se organizó dentro de clases independientes.
@@ -98,6 +102,8 @@ El sistema permite:
 
 Para ejecutar el sistema:
 
+Para ejecutar el sistema, se debe contar con Python instalado y ejecutar 
+el archivo principal mediante el siguiente comando: 
 ```bash id="9h9gr9"
 python main.py
 ```
